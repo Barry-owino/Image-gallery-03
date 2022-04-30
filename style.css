@@ -27,3 +27,8 @@ body{
   transition:transform 250ms;
   cursor:pointer;
 }
+
+.galleryImg:hover{
+  transform:translateY(-3px);
+  box-shadow:3px 3px 10px #111;
+}
