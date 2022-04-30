@@ -12,6 +12,7 @@ imageIndexes.forEach((i) => {
 
   image.addEventListener('click', () => {
     //popup stuff
+    selectedImage.src = `/images/barry-${i}.jpg`;
   });
 
   gallery.appendChild(image);
