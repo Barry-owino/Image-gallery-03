@@ -12,6 +12,7 @@ imageIndexes.forEach((i) => {
 
   image.addEventListener('click', () => {
     //popup stuff
+    popup.style.transform = `translateY(0)`;
     selectedImage.src = `/images/barry-${i}.jpg`;
   });
 

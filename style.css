@@ -41,6 +41,7 @@ body{
   right:0;
   background-color:rgba(0,0,0,0.95);
   display:flex;
+  justify-content:center;
   align-content:center;
   align-items:center;
   transform:translateY(-100%);
@@ -50,5 +51,6 @@ body{
 
 #selectedImage{
   max-height:100%;
+
 
 }
