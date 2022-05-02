@@ -14,7 +14,14 @@ imageIndexes.forEach((i) => {
     //popup stuff
     popup.style.transform = `translateY(0)`;
     selectedImage.src = `/images/barry-${i}.jpg`;
+    selectedImage.alt = `barry pic ${i} of the image gallery`
   });
 
   gallery.appendChild(image);
+});
+
+popup.addEventListener('click', () => {
+  popup.style.transform = `translateY(-100%)`;
+  popup.src = "";
+  popup.alt = "";
 });
