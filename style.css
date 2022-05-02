@@ -32,3 +32,18 @@ body{
   transform:translateY(-3px);
   box-shadow:3px 3px 10px #111;
 }
+
+#popup{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color:rgba(0,0,0,0.95);
+  display:flex;
+  align-content:center;
+  align-items:center;
+  transform:translateY(-100%);
+  transition:250ms transform;
+  padding:50px;
+}
