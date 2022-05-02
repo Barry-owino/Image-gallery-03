@@ -47,3 +47,8 @@ body{
   transition:250ms transform;
   padding:50px;
 }
+
+#selectedImage{
+  max-width:100%;
+
+}
